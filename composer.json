@@ -1,0 +1,28 @@
+{
+    "name": "finbarrmccarthy/finbarr-mailservice",
+    "description": "Provide configurable Mail Transport Factories for ZF2(FMC Custom)",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/finbarrmccarthy/FinbarrMailService",
+    "authors": [
+        {
+            "name": "Finbarr McCarthy",
+            "email": "finbarr@finbarr.org",
+            "homepage": "http://finbarr.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "FinbarrMailService": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
